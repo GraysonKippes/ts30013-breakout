@@ -1,0 +1,94 @@
+(footprint "L_Wurth_WE_PD_7345"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "L"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "66f7c0d9-8220-468e-bf99-681dc612d1d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L_Wurth_WE_PD_7345"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6654766c-d979-41fb-9f47-777f27e84346")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744777004.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37a8b531-2ab8-407b-8f1e-ebae3c32e864")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "FIXED IND 4.7UH 3.2A 40 MOHM SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d696d2a-d6c1-43e1-a3b7-d5f3011fe851")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -4 -4)
+		(end 4 4)
+		(radius 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0a456334-40bd-4527-90d1-2f810f4427ef")
+	)
+	(fp_rect
+		(start -4.25 -4.25)
+		(end 4.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "99ab1af6-4361-4aba-ba81-248524570634")
+	)
+	(pad "1" smd rect
+		(at 0 -3.2)
+		(size 2.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b5a19a44-b7f2-43ed-bf40-ea0a08fda57a")
+	)
+	(pad "2" smd rect
+		(at 0 3.2)
+		(size 2.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d7206398-afea-473e-8dfa-4996b6221837")
+	)
+	(embedded_fonts no)
+)
